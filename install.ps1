@@ -9,6 +9,10 @@ scoop install git
 scoop bucket add extras
 scoop install windows-terminal jq gow
 
+# launch once to create settings files
+wt
+Start-Sleep -Seconds 2
+
 $repo = "https://raw.githubusercontent.com/chrishenn/wt/refs/heads/main"
 $cfg = "$HOME/scoop/persist/windows-terminal/settings/settings.json"
 
