@@ -1,1 +1,1 @@
-scoop uninstall windows-terminal
+scoop uninstall windows-terminal -p
